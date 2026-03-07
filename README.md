@@ -22,3 +22,19 @@ Dependencies:
 Packaging assets expected:
   assets/logo.png
   assets/app.ico (optional, for window icon)
+
+
+#TODO
+move worker settings out of Tk vars
+
+add session + retries via Session()
+
+add manifest/cache to skip already processed PDFs
+
+dedupe case hits better
+
+split core logic from GUI
+
+improve detection patterns and snippet extraction
+
+add summary stats and better output usability
